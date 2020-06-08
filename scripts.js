@@ -1,5 +1,6 @@
-let todo = $('input');
+let todo = $('#todo').val();
 
 $('button').click((event) => {
-    $('ul').append('<li>${todo}</li>');
+    console.log($('#todo').val());
+    $('ul').append(`<li>${todo}</li>`);
 })
