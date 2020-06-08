@@ -6,6 +6,6 @@ $('#add').click((event) => {
     $('#todo').val("");
 });
 
-/* $('.done').click((function) => {
+/* $('.done').click(() => {
     $(.done).append("✓")
 }) */
