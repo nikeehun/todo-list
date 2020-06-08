@@ -2,7 +2,7 @@
 
 $('#add').click((event) => {
     let todo = $('#todo').val();
-    $('ul').append(`<li>${todo} <button class="done"></button></li>`);
+    $('ul').append(`<li>${todo}</li>`);
     $('#todo').val("");
 });
 
