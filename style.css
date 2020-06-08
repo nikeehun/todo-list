@@ -9,6 +9,7 @@ main {
     border: none;
     border-radius: 5px;
     color: #a3a3a3;
+    box-shadow: 2px 2px 5px 1px #a3a3a3;
 }
 
 h1 {
@@ -17,4 +18,35 @@ h1 {
     text-align: center;
     font-family: 'Patrick Hand', cursive;
     text-transform: uppercase;
+}
+
+ul {
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    font-size: 20px;
+    width: 250px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+form {
+    padding: auto;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    height: 14px;
+    margin-right: none;
+    border: 2px solid #8eedaf;
+}
+
+button {
+    border: none;
+    background: #8eedaf;
+    margin-left: none;
+    padding: none;
+    height: 20px;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
 }
