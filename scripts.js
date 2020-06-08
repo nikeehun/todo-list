@@ -1,8 +1,11 @@
 
 
-$('button').click((event) => {
+$('#add').click((event) => {
     let todo = $('#todo').val();
-    $('ul').append(`<li>${todo}</li>`);
+    $('ul').append(`<li>${todo} <button class="done"></button></li>`);
     $('#todo').val("");
-})
+});
 
+/* $('.done').click((function) => {
+    $(.done).append("✓")
+}) */
